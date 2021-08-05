@@ -1,0 +1,1118 @@
+<!doctype html>
+<html class="fixed sidebar-left-sm">
+
+<head>
+  <!-- Basic -->
+  <meta charset="UTF-8">
+  <title>Boundless Magento Theme Documentation for Magento 2 CE</title>
+  <meta name="keywords" content="Responsive Magento 2 Theme" />
+  <meta name="description" content="Documentation for Boundless - Ultimate Responsive Magento 2 Theme">
+  <meta name="author" content="SW-THEMES">
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!-- Web Fonts  -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600, 700, 800|Shadows+Into+Light"
+    rel="stylesheet" type="text/css">
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+  <!-- Specific Page Vendor CSS -->
+  <link rel="stylesheet" href="assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="assets/stylesheets/theme.css" />
+  <!-- Skin CSS -->
+  <link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+  <!-- Theme Custom CSS -->
+  <link rel="stylesheet" href="assets/stylesheets/scss/theme-custom.css">
+  <!-- Head Libs -->
+  <script src="assets/vendor/modernizr/modernizr.js"></script>
+</head>
+
+<body>
+  <section class="body">
+    <!-- start: header -->
+    <header class="header">
+      <div class="logo-container">
+        <a href="hww.html" class="logo">
+          <img src="assets/images/logo/main_logo.png" height="45" alt="Boundless Logo" />
+        </a>
+        <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html"
+          data-fire-event="sidebar-left-opened">
+          <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+        </div>
+      </div>
+      <!-- start: search & user box -->
+      <div class="header-right">
+        <span class="document-title">Documentation for
+          <a href="#"
+            class="link-themeforest">Boundless Magento 2 Theme</a>
+        </span>
+       
+        <span class="separator siteground_link"></span>
+        <div id="userbox" class="userbox">
+          <a href="#" data-toggle="dropdown">
+            <figure class="profile-picture">
+              <img src="assets/images/logo/picture_logo.png" alt="Joseph Doe" class="img-circle"
+                data-lock-picture="assets/images/!logged-user.jpg" />
+            </figure>
+            <div class="profile-info" data-lock-name="SW-THEMES" data-lock-email="swtheme@gmail.com">
+              <span class="name">HWW-THEMES</span>
+              <span class="role">author of boundless</span>
+            </div>
+            <i class="fa custom-caret"></i>
+          </a>
+          <div class="dropdown-menu">
+            <ul class="list-unstyled">
+              <li class="divider"></li>
+              <li>
+                <a role="menuitem" tabindex="-1" href="https://marketplace.magento.com/catalogsearch/result/?q=harriswebworks"
+                  target="blank"><i class="fa fa-qrcode"></i> Check Other Modules</a>
+              </li>
+              <li>
+                <a role="menuitem" tabindex="-1"
+                  href="https://www.harriswebworks.com/contact-us/"><i
+                    class="fa fa-user"></i> Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end: search & user box -->
+    </header>
+    <!-- end: header -->
+    <div class="inner-wrapper">
+      <!-- start: sidebar -->
+      <aside id="sidebar-left" class="sidebar-left">
+        <div class="sidebar-header">
+          <div class="sidebar-title">
+            Navigation
+          </div>
+        </div>
+        <div class="nano">
+          <div class="nano-content">
+            <nav id="menu" class="nav-main" role="navigation">
+              <ul class="nav nav-main">
+
+                <li class="nav-parent ">
+                  <!-- <a href="#gettingstarted"> -->
+                  <a>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>Introduction</span>
+                  </a>
+                  <ul class="nav nav-children">
+                    <li>
+                      <a href="#welcometoboundless">
+                        Welcome to Boundless
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#compatibilitytomage2">
+                        Compatibility to Magento2
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#mage2info">
+                        Magento 2 Info
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-parent">
+                  <a>
+                    <i class="fa fa-gear" aria-hidden="true"></i>
+                    <span>Installation</span>
+                  </a>
+                  <ul class="nav nav-children">
+                    <li>
+                      <a href="#themeinstallation">
+                        Theme Installation
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#localsetup">
+                        Local Setup
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#filesupload">
+                        File Upload
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#themeconfig">
+                        Configuration
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+
+                <li class="nav-parent">
+                  <a href="#headerandfooter">
+                    <i class="fa fa-align-left" aria-hidden="true"></i>
+                    <span>Header & Footer Setup</span>
+                  </a>
+                  <ul class="nav nav-children">
+                    <li>
+                      <a href="#headersetup">
+                        Header Setup
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#footersetup">
+                        Footer Setup
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#customfooter">
+                        Custom Footer
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-parent">
+                  <a href="#menumanager">
+                    <i class="fa fa-align-left" aria-hidden="true"></i>
+                    <span>HWW Menu Manager</span>
+                  </a>
+                  <ul class="nav nav-children">
+                    <li>
+                      <a href="#createmenu">
+                        Create Menu
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#createmenuitems">
+                        Create Menu Items
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#callingcustommenu">
+                        Calling your custom menu
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-parent">
+                  <a href="#slidermanager">
+                    <i class="fa fa-align-left" aria-hidden="true"></i>
+                    <span>HWW Slider</span>
+                  </a>
+                  <ul class="nav nav-children">
+                    <li>
+                      <a href="#createslider">
+                        Create Slider
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#createslide">
+                        Create Slide
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#configureslide">
+                       Configure Slide
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-parent">
+                  <a href="#productslider">
+                    <i class="fa fa-align-left" aria-hidden="true"></i>
+                    <span>Product Slider Setup</span>
+                  </a>
+                  <ul class="nav nav-children">
+                    <li>
+                      <a href="#featuredproduct">
+                        Featured Product Configuration
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#newproduct">
+                        New Product Configuration:
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#mostviewdproduct">
+                        Most Viewed Product Configuration
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+
+
+              </ul>
+            </nav>
+            <nav class="nav-main" role="navigation">
+              <ul class="nav nav-main">
+
+                <li>
+                  <a href="#help&support">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    <span>Support & Customization</span>
+                  </a>
+                </li>
+
+                <li class="title">
+                  <h6 style="text-transform: none">&copy;Copyright 2021 Harris Web Works</h6>
+                </li>
+                <br />
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </aside>
+      <!-- end: sidebar -->
+      <section role="main" class="content-body">
+        <div id="gettingstarted" class="row">
+          <div class="col-md-12">
+            <h2 class="page-title">Getting Started</h2>
+          </div>
+          <div class="col-md-12" id="welcometoboundless">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Welcome to Boundless Magento 2 Theme!</h2>
+              </header>
+              <div class="panel-body">
+                <p>We would like to thank you for purchasing Boundless Magento 2 Theme! We are very pleased you have
+                  chosen Boundless Magento 2 Theme(or interested in :)) for your website, you will be never
+                  disappointed! Before you get started, please be sure to always check out this documentation. We
+                  outline all kinds of good information, and provide you with all the details you need to use Boundless
+                  Magento 2 Theme. Boundless can only be used with Magento 1.x or 2.0 and we assume that you already
+                  have Magento installed and ready to go.</p>
+                <br />
+                <p>If you are unable to find your answer here in our documentation, we encourage you to <a href="#help&support"> contact us</a></p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-12" id="compatibilitytomage2">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Compatible with Magento:</h2>
+              </header>
+              <div class="panel-body">
+                <p>Boundless Magento Theme is fully compatible with Magento Community Edition 
+                  2.3.7, &nbsp; 2.4.1,&nbsp; 2.4.2</p>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-12" id="mage2info">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Magento Information</h2>
+              </header>
+              <div class="panel-body">
+                <p>To install this theme you must have a working version of Magento already installed. If you need help
+                  installing Magento, follow below sites and tutorials from magento.com, hope everything that you need
+                  are there.</p>
+                <br />
+                <ul class="col-md-6 li-ct left">
+                  <li class="margin-top-bottom-5 padding-left-10"><a
+                      href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html"
+                      target="blank"><span class="highlight">System Requirements</span></a> - Required system
+                    credentials for your magento installation.</li>
+                  <li class="margin-top-bottom-5 padding-left-10"><a
+                      href="http://devdocs.magento.com/guides/v2.0/install-gde/bk-install-guide.html"
+                      target="blank"><span class="highlight">Installation Guide</span></a> - Installation guide that
+                    describes how to install magento2.</li>
+                  <li class="margin-top-bottom-5 padding-left-10"><a
+                      href="http://docs.magento.com/m2/ce/user_guide/getting-started.html" target="blank"><span
+                        class="highlight">Online Magento 2 guide</span></a> - Online magento documentation that
+                    describes about magento2 in detail.</li>
+                  <li class="margin-top-bottom-5 padding-left-10"><a href="https://community.magento.com/"
+                      target="blank"><span class="highlight">Magento Forum</span></a> - Magento forum site.</li>
+                  <li class="margin-top-bottom-5 padding-left-10"><a
+                      href="http://stackoverflow.com/questions/tagged/magento" target="blank"><span
+                        class="highlight">stackoverflow.com</span></a> - You can also get some useful articles from
+                    stackoverflow.</li>
+                </ul>
+                <div class="col-md-6 image-max-100">
+                  <img src="assets/images/logo/magento2-logo.png" />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div id="installation" class="row">
+          <div id="themeinstallation" class="col-md-12">
+            <h2 class="page-title">Theme Installation</h2>
+          </div>
+          <div id="filesupload" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Theme Files Upload</h2>
+              </header>
+              <div class="panel-body">
+                <div class="tabs col-md-12 margin-0 padding-0">
+                  <ul class="nav nav-tabs">
+                    <li class="active">
+                      <a href="#ftp" data-toggle="tab" aria-expanded="true">Upload via FTP</a>
+                    </li>
+                    <li class="">
+                      <a href="#cpanel" data-toggle="tab" aria-expanded="false">Upload via CPanel</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div id="ftp" class="tab-pane active">
+                      <ol>
+                        <li>Log into your hosting space via a FTP software. ie, FileZilla</li>
+                        <!-- <li>
+                            Unzip 
+                            <bold>Theme Package > Theme Files > Magento 2.x > Boundless Theme.zip</bold>
+                            and upload all directories(There are 2 directories - app, pub) to magento 2 root directory.
+              <br/> If your magento version is 2.0.x, you should patch the theme with <bold>Boundless Theme(Magento 2.0.x Patch).zip</bold>
+                          </li> -->
+                        <li>Unzip the file and upload it to the root directory of the project.</li>
+                        <li>Run the upgrade command <code>bin/magento setup:upgrade</code> </li>
+
+                      </ol>
+                    </div>
+                    <div id="cpanel" class="tab-pane">
+                      <ol>
+                        <li>Log into your CPanel(Control Panel) by your hosting account or cpanel user information.</li>
+                        <!-- <li>
+                            Upload 
+                            <bold>Theme Package > Theme Files >  Magento 2.x > Boundless Theme.zip</bold>
+                            to your magento root directory and unzip its content. 
+              <br/> If your magento version is 2.0.x, you should patch the theme with <bold>Boundless Theme(Magento 2.0.x Patch).zip</bold>
+                          </li> -->
+                        <li>Unzip the file and upload it to the root directory of the project.</li>
+                        <li>Run the upgrade command <code>bin/magento setup:upgrade</code> </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </section>
+          </div>
+          <div id="localsetup" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Local Setup</h2>
+              </header>
+              <div class="panel-body">
+                <ol>
+                  <li>
+                    Unzip Magento Sources:
+                    <ul>
+                      <li>
+                        unzip &lt;boundless.zip&gt; -d &lt; magento_root &gt; &lt;/magento_root &gt;
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Enable Modules and run upgrades:
+                    <ul>
+                      <li><code>/magento module:enable\</code></li>
+                      <li><code>harriswebworks/module-core\</code></li>
+                      <li><code>harriswebworks/module-menumanager\</code></li>
+                      <li><code>harriswebworks/module-slider\</code></li>
+                      <li><code>harriswebworks/Productslider\</code></li>
+                      <li><code>/magento setup:upgrade</code></li>
+                      <li><code>/magento setup:static-content:deploy</code></li>
+                      <li><code>/magento cache:flush</code></li>
+                    </ul>
+                  </li>
+
+                </ol>
+
+
+
+              </div>
+            </section>
+          </div>
+          <div id="themeconfig" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Theme Configuration</h2>
+              </header>
+              <div class="panel-body">
+                <p>
+                  Boundless provides extremely easy configuration. You can do it from your Mageto Admin panel.
+                </p>
+                <br />
+                <ol>
+                  <li>Login to admin panel</li>
+                  <li>Go to Content &rightarrow; Configuration and click on “Edit” option from the action column.</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/theme-config/config-1.png" />
+                  </div>
+                  <div class="clear"></div>
+                  <br />
+                  <li>Click on “Applied Theme” drop-down option and select the “Harris Web Works Boundless” theme.</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/theme-config/config-2.png" />
+                  </div>
+                  <li>Finally Click on “Save Configuration” button.</li>
+                  <li>Now clean the cache using <code>bin/magento cache:clean</code></li>
+                </ol>
+                <div class="padding-left-20">
+                  <button class="mt-sm mb-sm btn btn-success">Congrats! You finished the theme installation, now you can
+                    go forward!</button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div id="headerandfooter" class="row">
+          <div class="col-md-12">
+            <h2 class="page-title"> Header and Footer</h2>
+          </div>
+          <div id="headersetup" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Header Setup</h2>
+              </header>
+              <div class="panel-body">
+                <img src="assets/images/headerfooter/headerboundless.png" style="max-width: 100%;" class="grey-border-1" /><br />
+                <ol>
+                  <li>
+                    Logo: You can change the theme’s logo by accessing the Theme Options and uploading your logo(GIF,
+                    PNG, JPG, or SVG file typ) with the uploader under the Content > Configuation > Edit > Header
+                    section.<br />
+                    The default Magento 2 logo in the sample data is an SVG file, which is a scalable XML-based vector
+                    graphic format. By default logo image will be uploaded to <br>
+                    app/design/frontend/Harriswebworks/boundless/HarrisWebWorks_Boundless/web/images</p>
+                  </li>
+                  <br>
+                  <li>
+                    Welcome Text: You can change the welcome text from Content > Blocks. Edit the welcome text
+                    accordingly. <br>
+                    you can also edit the Email and Phone no from here.
+                  </li>
+
+                </ol>
+              </div>
+            </section>
+          </div>
+          <div id="footersetup" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Footer Setup</h2>
+              </header>
+              <div class="panel-body">
+                <ol>
+                  <li>Login to admin panel</li>
+                  <li>In Admin Panel inside your left Menu-bar you will see the "Menu Manager".</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/fig1.png" />
+                  </div>
+                  <li>
+                    For <b>ABOUT US</b> section:<br>
+                    Inside Menu Information -> General Information
+                    <ol type="i">
+                      <li>Enter your menu title (Default: ABOUT US)</li>
+                      <li>Enter a unique identifier name for your footer menu (default: about-us)</li>
+                      <li>Enter your class name to customize the design if needed (Optional)</li>
+                      <li>Click "Save Menu" button</li>
+
+                    </ol>
+                    <div class="col-md=12 image-max-100 padding-0">
+                      <img class="grey-border-1 margin-top-bottom-5"
+                        src="assets/images/headerfooter/footerconfigaboutus.png" />
+                    </div>
+                  </li>
+                  <li>
+                    For <b>CUSTOMER SERVICE</b> section:<br>
+                    Inside Menu Information -> General Information
+                    <ol type="i">
+                      <li>Enter your menu title (Default: CUSTOMER SERVICE)</li>
+                      <li>Enter a unique identifier name for your footer menu (default: customer-service)</li>
+                      <li>Enter your class name to customize the design if needed (Optional)</li>
+                      <li>Click "Save Menu" button</li>
+
+                    </ol>
+                    <div class="col-md=12 image-max-100 padding-0">
+                      <img class="grey-border-1 margin-top-bottom-5"
+                        src="assets/images/headerfooter/footerconfigcustomerservice.png" />
+                    </div>
+                  </li>
+
+
+                </ol>
+                <p>You can configure the options related to the footer section in
+                  <code>Boundless- Setting Panel > Footer</code>
+                </p>
+                .
+              </div>
+            </section>
+          </div>
+          <div id="customfooter" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Call your Custom Footer Menu</h2>
+              </header>
+              <div class="panel-body">
+                <p><b>Calling in XML :</b></p>
+                <p>You can call Footer Menu in XML using this code:></p>
+                <div>
+                  <code>
+                    &lt;referenceBlock name=&quot;footer-container&quot;&gt;<br>
+                    &nbsp;&lt;container name=&quot;hww-footer-area&quot; htmlTag=&quot;div&quot; htmlClass=&quot;hww-footer-area&quot;&gt;<br>
+                    &nbsp;&nbsp;&lt;container name=&quot;hww-footer-container&quot; htmlTag=&quot;div&quot; htmlClass=&quot;container&quot; after=&quot;subscribe&quot;&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&lt;container name=&quot;hww-footer-row&quot; htmlTag=&quot;div&quot; htmlClass=&quot;row&quot;&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;container name=&quot;hww-footer-our-company&quot; htmlTag=&quot;div&quot; htmlClass=&quot;col-md-4 col-sm-4&quot;&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;block class=&quot;HarriswebworksMenumanagerBlockMenu&quot; name=&quot;footer-about-us&quot; template=&quot;Harriswebworks_Menumanager::html/footer-menu.phtml&quot;&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;arguments&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;argument name=&quot;identifier&quot; xsi:type=&quot;string&quot;&gt;&rdquo;YOUR IDENTIFIRE NAME&rdquo;&lt;/argument&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/arguments&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/block&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&lt;/container&gt;<br>
+                    &nbsp;&nbsp;&lt;/container&gt;<br>
+                    &nbsp;&lt;/container&gt;<br>
+                    &lt;/referenceBlock&gt;<br>
+                  </code>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        </div>
+        <div id="menumanager" class="row">
+          <div class="col-md-12">
+            <h2 class="page-title">Harriswebworks Menu Manager</h2>
+          </div>
+          <div id="createmenu" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Create Menu</h2>
+              </header>
+              <div class="panel-body">
+                <p>
+                  Before going into steps to create and configure menu items as per our
+                  demo, let’s learn about general settings of our Menu
+                  and ways it supports to create a menu item.
+                </p>
+                <br />
+                <ol>
+                  <li>Login to admin panel</li>
+                  <li>In Admin Panel inside your left Menu-bar you will see the "Menu Manager".</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/fig1.png" />
+                  </div>
+                  <div class="clear"></div>
+                  <br />
+                  <li>To add new menu click on "Add New Menu"</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/fig2.png" />
+                  </div>
+                  <li>
+                    Inside Menu Information -> General Information -
+                    <ol>
+                      <li>Enter your menu title (Your choice).</li>
+                      <li>Enter a unique identifier name for your menu (default: hww-menu). </li>
+                      <li>Enter your class name to customize the design if needed (Optional).</li>
+                      <li>Click the “Save Menu" button.</li>
+                    </ol>
+                  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/fig3.png" />
+                  </div>
+                  <li>Now clean the cache using <code>bin/magento cache:clean</code></li>
+
+
+                  <div class="padding-left-20">
+                    <button class="mt-sm mb-sm btn btn-success">Congrats! Your menu has been created. To check go to the
+                      Menu Manager</button>
+                  </div>
+
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/fig4.png" />
+                  </div>
+
+                </ol>
+
+              </div>
+            </section>
+          </div>
+          <div id="createmenuitems" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Create menu Items</h2>
+              </header>
+              <div class="panel-body">
+                <p>To assign necessary menu items (sub-menu) follow the steps below.</p>
+                <ol>
+                  <li>
+                    Go to the Menu manager and edit the menu you are working on.
+                    <div class="col-md=12 image-max-100 padding-0">
+                      <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/menuitem1.png" />
+                    </div>
+
+                  </li>
+                  <li>
+                    Go to “Assigned Menu Items” and click the “Add Item" button.
+                    <div class="col-md=12 image-max-100 padding-0">
+                      <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/menuitem2.png" />
+                    </div>
+
+
+                  </li>
+                  <li>
+                    Enter your menu item title (sub-menu). <br>
+                    <div class="col-md=12 image-max-100 padding-0">
+                      <img class="grey-border-1 margin-top-bottom-5" src="assets/images/menumanager/menuitem3.png" />
+                    </div>
+
+
+                  </li>
+                  <li>
+                    You can choose URL Type either Custom URL or, CMS Page or, Category.
+                    <ol type="a">
+                      <li>
+                        For URL Type: Custom URL <br>
+                        Provide a valid URL in the Custom URL field. <br>
+                        <div class="col-md=12 image-max-100 padding-0">
+                          <img class="grey-border-1 margin-top-bottom-5"
+                            src="assets/images/menumanager/menuitem4.png" />
+                        </div>
+
+                      </li>
+                      <li>
+                        For URL Type: CMS Page <br>
+                        In the CMS Page field, you can choose the Home page, Enable Cookies, etc. from the drop-down.
+                        <br>
+                        <div class="col-md=12 image-max-100 padding-0">
+                          <img class="grey-border-1 margin-top-bottom-5"
+                            src="assets/images/menumanager/menuitem4.png" />
+                        </div>
+
+                      </li>
+                      <li>
+                        For URL Type: Category <br>
+                        In the Category field, you can choose any of your categories from the drop-down. <br>
+                        <div class="col-md=12 image-max-100 padding-0">
+                          <img class="grey-border-1 margin-top-bottom-5"
+                            src="assets/images/menumanager/menuitem5.png" />
+                        </div>
+
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    After filling up all the fields click “Save”.
+                  </li>
+                  <li>
+                    Repeat the process as many times you need.
+                  </li>
+                  <li>Now clean the cache using <code>bin/magento cache:clean</code></li>
+
+
+                </ol>
+
+              </div>
+            </section>
+          </div>
+          <div id="callingcustommenu" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Calling custom menu</h2>
+              </header>
+              <div class="panel-body">
+                <div class="tabs col-md-12 margin-0 padding-0">
+                  <ul class="nav nav-tabs">
+                    <li class="active">
+                      <a href="#menuxml" data-toggle="tab" aria-expanded="true">Calling via XML</a>
+                    </li>
+                    <li class="">
+                      <a href="#menucms" data-toggle="tab" aria-expanded="false">Calling via CMS Page/Block</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div id="menuxml" class="tab-pane active">
+                      <ol>
+                        <li>First, create a Menu with the custom identifier (“your-custom-menu-identifier”).</li>
+
+                        <li>Add all the Custom menu by adding this code in the default.xml file of the intended module
+                          like <br>
+                          <i> app/design/frontend/{your theme vendor name}/{your theme
+                            name}/Harriswebworks_Menumanager/layout/default.xml </i>
+                        </li>
+                        <br>
+                        <div>
+                          <code>
+                            &#x3C;referenceBlock name=&#x22;catalog.topnav&#x22; remove=&#x22;true&#x22;/&#x3E;<br>
+                            &#x3C;referenceBlock name=&#x22;store.menu&#x22;&#x3E;<br>
+                            &nbsp;&nbsp;&#x3C;block class=&#x22;Harriswebworks\Menumanager\Block\Menu&#x22;
+                            &nbsp;name=&#x22;custom.navigation&#x22; 
+                            &nbsp;template=&#x22;html/menu.phtml&#x22;  
+                            &nbsp;before=&#x22;-&#x22; ttl=&#x22;3600&#x22;&#x3E;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&#x3C;arguments&#x3E;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x3C;argument name=&#x22;identifier&#x22; xsi:type=&#x22;string&#x22;&#x3E;
+                            &nbsp;your-custom-menu-identifier 
+                            &nbsp;&nbsp;&nbsp;&nbsp;&#x3C;/argument&#x3E;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&#x3C;/arguments&#x3E;<br>
+                            &nbsp;&nbsp;&#x3C;/block&#x3E;<br>
+                            &#x3C;/referenceBlock&#x3E;<br>
+                          </code>
+                        </div>
+
+
+                      </ol>
+                    </div>
+                    <div id="menucms" class="tab-pane">
+                      <ol>
+                        <li>First, create a Menu with the custom identifier (“your-custom-menu-identifier”). </li>
+                        <li>Create a block from the admin panel and add the following code in the content section. </li>
+                        <li>Call the block by the block identifier anywhere you need.</code> </li>
+                        <div>
+                          <code>
+                          {{block class=&quot;Harriswebworks\Menumanager\Block\Menu&quot;<br>
+                            &nbsp;&nbsp;identifier=&quot;your-custom-menu-identifier&quot;<br>
+                            &nbsp;&nbsp;template=&quot;Harriswebworks_Menumanager::html/menu.phtml&quot;}}
+                          </code>
+                        </div>
+
+                      </ol>
+                    </div>
+                  </div>
+            </section>
+          </div>
+        </div>
+
+
+        <div id="slidermanager" class="row">
+          <div class="col-md-12">
+            <h2 class="page-title">Harriswebworks Slider</h2>
+          </div>
+          <div id="createslider" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Create Slider</h2>
+              </header>
+              <div class="panel-body">
+                <ol>
+                  <li>Login to admin panel</li>
+                  <li>Click HARRIS WEB WORKS from the Magento navigation panel..</li>
+                  <li>Then click on the Manage Slider slider. </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/Screenshot(13).png" />
+                  </div>
+                  <br/>
+                  <li>To add a new slider click on the "Add New Slider" button.	</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/2.png" />
+                  </div>
+                  <li>
+                    Configure a new slider and save. <br>
+                    <ol type="i">
+                      
+                      <li>For page Type: CMS Page</li>
+                      <div class="col-md=12 image-max-100 padding-0">
+                        <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/3.png" />
+                      </div>
+                      <br>
+
+                      <li>For page Type: Category</li>
+                      <div class="col-md=12 image-max-100 padding-0">
+                        <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/4.png" />
+                      </div>
+                      <br>
+
+                      <li>For page Type: Custom Route</li>
+                      <div class="col-md=12 image-max-100 padding-0">
+                        <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/5.png" />
+                      </div>
+                      <br>
+                    </ol>
+                  </li>
+                  <div class="padding-left-20">
+                    <button class="mt-sm mb-sm btn btn-success">Congrats! Your slider has been created. It will appear in your Magento dashboard</button>
+                  </div>
+
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/6.png" />
+                  </div>
+                  <br>
+                </ol>
+
+              </div>
+            </section>
+          </div>
+          <div id="createslide" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Create Slide</h2>
+              </header>
+              <div class="panel-body">
+                <p>To create necessary Slides follow the steps below.</p>
+                <ol>
+                  <li>
+                    Click HARRIS WEB WORKS from the Magento navigation panel. 
+                  </li>
+                  <li>
+                    Then click on the Manage Slider slider. 	 	
+                  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/Screenshot(14).png" />
+                  </div>
+                  <br>
+                  <li>Add new slide  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/7.png" />
+                  </div>
+                  <br>
+                  <li>Configure Slide</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/8.png" />
+                  </div>
+                  <br>
+                  <li>
+                    Select Image for the default desktop views. 
+                  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/9.jpg" />
+                  </div>
+                  <br>
+                  <li>Select Mobile Image for the responsive mobile view. </li>
+                  <div class="col-md=12 image-max-100 padding-0" >
+                    <img class="grey-border-1 margin-top-bottom-5" style="height: 560px;" src="assets/images/hwwslider/10.jpg" />
+                  </div>
+                  <br>
+                  <li>Clean the cache to see the added sliders into the storefront.</li>
+
+                  <li>The desktop view would be like this one in the storefront. </li>
+
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/11.png" />
+                  </div>
+                  <br>
+                  <li>The moblie view would be like this one in the storefront. </li>
+
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/12.png" />
+                  </div>
+                  <br>
+
+                  <li>Create as many slides as you need following those slide creation processes.</li>
+                </ol>
+
+              </div>
+            </section>
+          </div>
+          <div id="configureslide" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Configure Slide</h2>
+              </header>
+              <div class="panel-body">
+                <ol>
+                  <li>
+                    Click HARRIS WEB WORKS from the Magento navigation panel. 
+                  </li>
+                  <li>Click on the configuration menu. 	</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/Screenshot(15).png" />
+                  </div>
+                  <br>
+                  <li>Enable/Disable the slider module.</li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/hwwslider/13.png" />
+                  </div>
+                  <br>
+                  <li>Now clean the cache using <code>bin/magento cache:clean</code></li>
+
+
+                </ol>
+              </div>
+                
+            </section>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="productslider" class="row">
+          <div class="col-md-12">
+            <h2 class="page-title">Product-Slider</h2>
+          </div>
+          <div id="featuredproduct" class="col-md-12">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Featured Product</h2>
+              </header>
+              <div class="panel-body">
+                <p>
+                  Before going into steps to create and configure product slider items as per our
+                  demo, let’s learn about general settings of our product slider
+                  and ways it supports to create the product slider.
+
+                </p>
+                <br />
+
+                <ol>
+                   <li>
+                    Go to Store &gt; Settings &gt; Configuration &gt; HARRIS WEB WORKS &gt; Product Slider
+                   </li> 
+                    <div class="col-md=12 image-max-100 padding-0">
+                      <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/fig1.png" />
+                    </div>
+
+                   <li>
+                    To enable the Featured product click on “<b>Feature Products Enable</b>” drop-down and select
+                    yes. 
+                   </li> 
+                   <li>
+                    There are more configuration option under Feature Product Configuration option you can change. If
+                    you don change any attributes value it will run as default configuration See the bellow image:
+                    
+                   </li>
+                    <div class="col-md=12 image-max-100 padding-0">
+                      <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/fig2.png" />
+                    </div>
+
+                    <li><b>Finally Click on “Save Config” button.</b></li>
+                </ol>
+                <br>
+                <p>It will be like this on the storefront</p>
+                <div class="col-md=12 image-max-100 padding-0">
+                  <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/featuredproducts.png" />
+                </div>
+              </div>
+            </section>
+          </div>
+          <div id="newproduct" class="col-md-12" >
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">New Product Configuration </h2>
+              </header>
+              <div class="panel-body">
+
+                <ol>
+                  <li>
+                    Go to Store > Settings > Configuration > HARRIS WEB WORKS > Product Slider
+                  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/fig3.png" />
+                  </div>
+                  <li>
+                    To enable the New product click on “<b>New Products Enable</b>” drop-down and select yes. 
+                  </li>
+                  <li>
+                    There are more configuration option under New Product Configuration option you can change. If you
+                    don change any attributes value it will run as default configuration See the bellow image:
+                  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/fig4.png" />
+                  </div>
+                  <li><b>Finally Click on “Save Config” button.</b></li>
+                </ol>
+                <br>
+                <p>It will be like this on the storefront</p>
+                <div class="col-md=12 image-max-100 padding-0">
+                  <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/newproduct.png" />
+                </div>
+              </div>
+            </section>
+          </div>
+          <div id="mostviewdproduct" class="col-md-12" >
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Most Viewed Product Configuration </h2>
+              </header>
+              <div class="panel-body">
+                <OL>
+                  <li>
+                    Go to Store > Settings > Configuration > HARRIS WEB WORKS > Product Slider
+                  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/fig5.png" />
+                  </div>
+                  <li>
+                    To enable the New product click on “<b>Most Viewed Products Enable</b>” drop-down and select yes.
+                  </li>
+
+
+                  <li>
+                    There are more configuration option under Most Viewed Product Configuration option you can change.
+                    If you don change any attributes value it will run as default configuration See the bellow image:
+                  </li>
+                  <div class="col-md=12 image-max-100 padding-0">
+                    <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/fig6.png" />
+                  </div>
+                  <li><b>Finally Click on “Save Config” button.</b></li>
+                </OL>
+                
+                <br>
+                <p>It will be like this on the storefront</p>
+                <div class="col-md=12 image-max-100 padding-0">
+                  <img class="grey-border-1 margin-top-bottom-5" src="assets/images/productslider/mostviewedproduct.png" />
+                </div>
+
+              </div>
+            </section>
+          </div>
+
+        </div>
+
+        <div id="help&support" class="row">
+          <div class="col-md-12">
+            <h2 class="page-title">Help & Support</h2>
+          </div>
+          <div class="col-md-12" id="welcometoboundless">
+            <section class="panel panel-featured panel-featured-primary">
+              <header class="panel-heading">
+                <h2 class="panel-title">Hii there!</h2>
+              </header>
+              <div class="panel-body">
+                <p>
+                  If you have any questions and need support, please feel free to reach us at <br>
+                  <a href="mailto:support@harriswebworks.com">Support@harriswebworks.com</a>  <br> <br>
+                  We're always here to help!
+
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- end: page -->
+      </section>
+    </div>
+  </section>
+  <!-- Vendor -->
+  <script src="assets/vendor/jquery/jquery.js"></script>
+  <script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+  <script src="assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+  <!-- Theme Base, Components and Settings -->
+  <script src="assets/javascripts/theme.js"></script>
+</body>
+
+</html>
